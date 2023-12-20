@@ -1,0 +1,4 @@
+For ID number 1, the salary is 1500 euros.
+For ID number 2, the salary is 3000 euros.
+For ID number 3, the salary is 2500 euros.
+For ID number 4, the salary is 1500 euros.

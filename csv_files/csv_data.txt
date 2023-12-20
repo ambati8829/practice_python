@@ -1,0 +1,5 @@
+id,name,department,salary
+1,sandeep,IT,1500
+2,vamsi,Production Planning,3000
+3,naren,Oracle,2500
+4,sai,DA,1500 
