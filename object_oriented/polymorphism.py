@@ -4,4 +4,22 @@
 #Operator overloading is an example of polymorphism.
 #If a Function handles more than one datatype and different parameter size then it is polymorphism.
 
+from multipledispatch import dispatch
 
+class A:
+    @dispatch(int,int)
+    def add(self,a,b):
+        print(a+b)
+    
+    @dispatch(int,int,int)
+    def add(self,a,b,c):
+        print(a+b+c)
+    
+    @dispatch(str,str)
+    def add(self,a,b):
+        print(a+b)
+    
+obj = A()
+obj.add(1,2)
+obj.add(1,2,3)
+obj.add('sandeep','reddy')
